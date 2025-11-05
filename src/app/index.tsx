@@ -1,5 +1,5 @@
 import { GiHamburgerMenu } from 'react-icons/gi'
-import { IoCubeSharp } from 'react-icons/io5'
+import { IoCutSharp } from 'react-icons/io5'
 import { Pressable, StyleSheet, Text, View } from 'react-native'
 
 export default function App(){
@@ -8,7 +8,7 @@ export default function App(){
             {/* HEADER TOP */}
             <View style={styles.header}>
                 <View style={styles.logo}>
-                    <IoCubeSharp style={styles.cutLogo} />
+                    <IoCutSharp style={styles.cutLogo} />
                     <Text style={styles.cutText}>TDW</Text>
                     <Text style={styles.cutText1}>BARBER</Text>
                 </View>
